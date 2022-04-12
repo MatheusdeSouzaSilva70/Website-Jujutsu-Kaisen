@@ -1,0 +1,408 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #130D17;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Castoro',
+        serif;
+
+}
+
+p,
+a {
+    font-family: 'Inter',
+        sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ========== Code ============*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+
+}
+
+
+
+.background {
+    background-image: url("../image2/jujutsu\ kaisen\ ferias.webp");
+    width:100%;
+    height:auto;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 0 25px;
+    padding: 22px 0;
+}
+
+.header ul li a {
+    text-transform: uppercase;
+    position: relative;
+    color: #fff;
+}
+
+.header ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: -22.5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: all ease 1s;
+}
+
+.header ul li a:hover:before {
+    width: 100%;
+}
+
+
+/*============ HERO SECTION============*/
+
+.hero_sec {
+    text-align: center;
+    padding: 120px 0;
+    position: relative;
+}
+
+.hero_sec p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.48em;
+    color: #FFFFFF;
+}
+
+.hero_text h1 {
+    font-weight: 400;
+    font-size: 95.6463px;
+    line-height: 120px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    width: 481px;
+}
+
+.hero_text .btn-primary {
+    margin-top: 32px;
+}
+
+.btn-primary {
+    text-transform: uppercase;
+    display: inline-table;
+    padding: 25px 40px;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    z-index: 2;
+    transition: all ease 1s;
+    color: #fff;
+}
+
+.btn-primary:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #130D17;
+    z-index: -1;
+    transition: all ease 1s;
+}
+
+.btn-primary:hover:before {
+    width: 100%;
+}
+
+.btn-primary:hover {
+    color: #fff;
+}
+
+.hero_sec .simbolo {
+    position: absolute;
+    top: 50px;
+    right: 350px;
+    z-index: 1;
+}
+
+.simbolo img {
+    transform: rotate(-45deg);
+    animation: simbolo 4s linear forwards;
+}
+
+@keyframes simbolo {
+    to {
+        transform: rotate(0deg);
+
+    }
+}
+
+/*============ HERO SECTION============*/
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.sec5,
+.sec6,
+.sec7 {
+    padding: 100px 0;
+}
+
+.sec1_img_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1_img3 {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+/*============ SECTION 2============*/
+
+.sec2 .container,
+.sec3 .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sec_text {
+    max-width: 60%;
+}
+
+.sec_text h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 95.6463px;
+    line-height: 120px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.sec_text .sec_text_desc {
+    padding-left: 72px;
+    border-left: 2px solid rgba(255, 255, 255, .7);
+    margin-top: 26px;
+}
+
+.sec_text_desc_p p {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+/*============ SECTION 5============*/
+
+.sec5 {
+    position: relative;
+}
+
+.sec5 h3 {
+    font-weight: 400;
+    font-size: 95.6463px;
+    line-height: 120px;
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sec5_img_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.sec5_img_group2 {
+    margin-top: -80px;
+}
+
+.sec5_img_group .sec5_img2 {
+    margin: 130px -50px 0;
+    z-index: 9;
+}
+
+.sec5 .simbolo {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* ========== SECTION 6 ============= */
+
+.sec6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.overlay_text {
+    position: absolute;
+}
+
+.sec6 h2 {
+    font-size: 61.9708px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    width: 700px;
+    font-weight: 400;
+
+}
+
+.overlay_text p {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 10px;
+
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.sec6 video {
+    width: 100%;
+}
+
+
+.sec6 {
+    padding-bottom: 0;
+}
+
+/* ========== SECTION 7 ===========*/
+.sec7 {
+    overflow: hidden;
+}
+
+.image_slider .item {
+    padding: 0 10px;
+}
+
+.image_slider img {
+    width: 340px;
+}
+
+.sec7 h2 {
+    font-size: 95.6463px;
+    line-height: 120px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.circular_text {
+    text-align: center
+}
+
+.circular_text img {
+    margin-top: -200px;
+    z-index: 9;
+    animation: circular 10s linear infinite;
+    margin-bottom: 50px;
+}
+
+
+@keyframes circular {
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 153px;
+}
+
+footer h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    font-family: 'Castoro';
+
+    font-weight: 400;
+    font-size: 32.3228px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+    position: relative;
+}
+
+
+
+footer a:before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: all ease 1s;
+}
+
+footer a:hover:before {
+    width: 100%;
+}
