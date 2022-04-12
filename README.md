@@ -1,7 +1,7 @@
-# Kimetsu No Yaba Website
+## Jujutsu Kaisen Website
 <h1 align="center">
 
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra1.png?raw=true" />
+<img src="https://github.com/MatheusdeSouzaSilva70/Site-Anime-Jujutsu-Kaisen/blob/main/projeto/Site%20de%20jujutsu%20kaisen.png" />
 
 </h1>
 
@@ -10,43 +10,26 @@
 ##  💻 Sobre o projeto
 
   
-🔧Site com inspiração no anime "Demon Slayer: Kimetsu no Yaiba" com fins de estudo.
+🔧Site com sobre ó anime "Jujutsu Kaisen": objetivo melhorar minhas Habilidades com HTML, CSS, JavaScript
 
-  
-
-##  🎨 Layout
-O layout do site também está disponível no Figma:
-
-  
-
-<a target="_blank" href="https://www.figma.com/file/8Km6Viqt2mOoInQ1EsCvqZ/Kimetsu-No-Yaba-Project?node-id=1%3A2">
-
-<img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%20861E">
-
-</a>
-
-
-</a>
-
-###  Mobile
-
-<p align="center">
-    Será desenvolvido
-</p>
-
-###  Web
-
-  
+####  Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra1.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra2.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra3.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra4.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra5.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra6.png?raw=true" width="100%">
-<img src="https://github.com/erosMariano/Kimetsu-no-yaba-website/blob/main/image/Dobras/Dobra7.png?raw=true" width="100%">
+  
+#### Primeira parte conta a historia do anime é do protagonista
+  
+<img src="https://github.com/MatheusdeSouzaSilva70/Site-Anime-Jujutsu-Kaisen/blob/main/projeto/img%20hist%C3%B3ria.png" width="100%">
+  
+  #### Segunda parte conta a historia do Satoru Gojo( Professor) um dos ppersonagens mais importante do anime 
+<img src="https://github.com/MatheusdeSouzaSilva70/Site-Anime-Jujutsu-Kaisen/blob/main/projeto/img%20historia%202.png" width="100%">
+  <br>
+  
+  #### Site contem um video mostrando como é o anime
+  
+<img src="https://github.com/MatheusdeSouzaSilva70/Site-Anime-Jujutsu-Kaisen/blob/main/projeto/img%20video%20jujutsu%20kaisen.png" width="100%">
+  
+  #### Vilões principais do anime
+<img src="https://github.com/MatheusdeSouzaSilva70/Site-Anime-Jujutsu-Kaisen/blob/main/projeto/img%20vil%C3%B5es.png" width="100%">
 </p>
 
 
@@ -57,15 +40,20 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
   
 
-- [AOS js](https://michalsnik.github.io/aos)
+- [HTML]
 
-- [Slick Carousel](https://kenwheeler.github.io/slick)
+- [CSS]
 
-- [Luxy Js](https://min30327.github.io/luxy.js)
+- [JavaScript]
+- 
+- [Bootstrap]
+- 
+## Recursos
+- Responsivo
 
-- [Bootstrap](https://getbootstrap.com/)
+## Links:
+- Portfolio: 
+- LinkedIn:https://www.linkedin.com/in/matheus-de-souza-silva-288194229/
 
-##  📝 Licença
-
-Feito com 💚 por Eros Mariano 👋🏽 [Entre em contato!](https://www.linkedin.com/in/erosmariano/)
-  
+## Autor:
+**Matheus de Souza Silva**
